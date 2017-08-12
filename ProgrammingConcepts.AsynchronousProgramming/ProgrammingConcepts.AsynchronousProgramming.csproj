@@ -43,10 +43,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutoResetEventSampler.cs" />
+    <Compile Include="BlockingCollectionSampler.cs" />
     <Compile Include="CompleteYourTasksTaskCompletionSource.cs" />
     <Compile Include="EasierToWrite.cs" />
+    <Compile Include="InterlockedClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleWaitPulse.cs" />
     <Compile Include="Worker.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -30,7 +30,7 @@ namespace ProgrammingConcepts.AsynchronousProgramming
         static void GetDataFromServer()
         {
             //Calling any webservice to get data
-            Thread.Sleep(TimeSpan.FromSeconds(4));
+            Thread.Sleep(TimeSpan.FromSeconds(10));
             dataFromServer = "Webservice data";
             autoResetEvent.Set();
         }
