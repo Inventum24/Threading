@@ -3,15 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Threading.Albahari._01_Introduction;
+using Threading.Albahari;
 
 namespace Threading.ConsoleApp
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            ThreadTest_02.Run();
+            //Albahari._02_BasicSynchronization.TwoWaySignaling.Run();
+            //Albahari._02_BasicSynchronization.ProducerConsumerQueueRunner.Run();
+            //Albahari._02_BasicSynchronization.ManualResetEventRunner.Run2();
+            //Albahari._04_Advanced.SimpleWaitPulse swp = new Albahari._04_Advanced.SimpleWaitPulse();
+            //Albahari._04_Advanced.SimpleWaitPulse.Run();
+            //Albahari._04_Advanced.PCQueueRunner.Run();
+
             Console.ReadKey();
         }
     }

@@ -49,7 +49,9 @@
     <Compile Include="InterlockedClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SendQueueSampler.cs" />
     <Compile Include="SimpleWaitPulse.cs" />
+    <Compile Include="Utils\Counter.cs" />
     <Compile Include="Worker.cs" />
   </ItemGroup>
   <ItemGroup>

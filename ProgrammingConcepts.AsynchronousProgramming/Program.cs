@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProgrammingConcepts.AsynchronousProgramming.Utils;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -63,6 +64,8 @@ namespace ProgrammingConcepts.AsynchronousProgramming
                 {
                     case ConsoleKey.UpArrow:
                         Console.WriteLine("UpArrow was pressed");
+                        Counter c = new Counter();
+                        TaskContainer.Create("tak", (tok) => AddCounterTask(tok, c));
                         break;
                     case ConsoleKey.DownArrow:
                         Console.WriteLine("DownArrow was pressed");
@@ -87,6 +90,15 @@ namespace ProgrammingConcepts.AsynchronousProgramming
                         break;
                 }
             }
+        }
+
+        public static async Task AddCounterTask(CancellationToken tok, Counter counter)
+        {
+            for (var i = 0; i < 10; i++)
+            {
+                counter.Increment();
+            }
+            await Task.Delay(0, tok);
         }
     }
 
@@ -180,5 +192,7 @@ namespace ProgrammingConcepts.AsynchronousProgramming
         //    });
         //    Console.WriteLine(lenght);
         //}
+
+
     }
 }

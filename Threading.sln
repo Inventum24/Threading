@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threading.ProgramowsnieCS5.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threadings.ProgramowanieCS5.Chapter6", "Threadings.ProgramowanieCS5.Chapter6\Threadings.ProgramowanieCS5.Chapter6.csproj", "{00F22340-0C01-4526-A4A1-D8F4BF9B17FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingConcepts.AsynchronousProgramming", "ProgrammingConcepts.AsynchronousProgramming\ProgrammingConcepts.AsynchronousProgramming.csproj", "{9D02B98D-9A44-4ACD-9117-898652D13CAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{00F22340-0C01-4526-A4A1-D8F4BF9B17FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00F22340-0C01-4526-A4A1-D8F4BF9B17FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00F22340-0C01-4526-A4A1-D8F4BF9B17FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D02B98D-9A44-4ACD-9117-898652D13CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D02B98D-9A44-4ACD-9117-898652D13CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D02B98D-9A44-4ACD-9117-898652D13CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D02B98D-9A44-4ACD-9117-898652D13CAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

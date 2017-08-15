@@ -43,11 +43,15 @@
     <Compile Include="01_Introduction\ThreadTest_01.cs" />
     <Compile Include="01_Introduction\ThreadTest_02.cs" />
     <Compile Include="01_Introduction\ThreadTest_03.cs" />
+    <Compile Include="02_BasicSynchronization\BasicWaitHandle.cs" />
+    <Compile Include="02_BasicSynchronization\ManualResetEventSampler.cs" />
+    <Compile Include="02_BasicSynchronization\ProducerConsumerQueue.cs" />
+    <Compile Include="02_BasicSynchronization\TwoWaySignaling.cs" />
+    <Compile Include="04_Advanced\PCQueue.cs" />
+    <Compile Include="04_Advanced\SimpleWaitPulse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="02_BasicSynchronization\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
