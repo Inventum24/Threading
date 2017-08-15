@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Threading.Albahari._01_Introduction
 {
-    public class ThreadTest_01
+    public class ThrReadTesRt_01
     {
         public static void Run()
         {
@@ -15,7 +15,10 @@ namespace Threading.Albahari._01_Introduction
             t.Start();                               // running WriteY()
 
             // Simultaneously, do something on the main thread.
-            for (int i = 0; i < 1000; i++) Console.Write("XxX\n");
+            for (var i = 0; i < 1000; i++)
+            {
+                Console.Write("XxX\n");
+            }
         }
 
         static void WriteT()

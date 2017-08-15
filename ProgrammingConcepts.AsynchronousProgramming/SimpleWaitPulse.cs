@@ -12,7 +12,7 @@ namespace ProgrammingConcepts.AsynchronousProgramming
         static readonly object _locker = new object();
         static bool _go;
 
-        static void Main()
+        static void Runner()
         {                                // The new thread will block
             new Thread(Work).Start();     // because _go==false.
 
