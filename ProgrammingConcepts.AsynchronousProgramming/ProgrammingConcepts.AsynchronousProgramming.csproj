@@ -47,6 +47,8 @@
     <Compile Include="CompleteYourTasksTaskCompletionSource.cs" />
     <Compile Include="EasierToWrite.cs" />
     <Compile Include="InterlockedClass.cs" />
+    <Compile Include="LockProblem.cs" />
+    <Compile Include="ProducerConsumer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SendQueueSampler.cs" />
