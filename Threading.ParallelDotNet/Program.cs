@@ -8,6 +8,10 @@ using Threading.ParallelDotNet._02CancellingTask;
 using Threading.ParallelDotNet._03WaitingForTimeToPass;
 using Threading.ParallelDotNet._04WaitingForTasks;
 using Threading.ParallelDotNet._05ExceptionHandling;
+using Threading.ParallelDotNet._06CriticalSections;
+using Threading.ParallelDotNet._07InterlockedOperations;
+using Threading.ParallelDotNet._08SpinLockingAndLockRecursion;
+using Threading.ParallelDotNet._09Mutex;
 
 namespace Threading.ParallelDotNet
 {
@@ -19,7 +23,12 @@ namespace Threading.ParallelDotNet
             //CancellingTask.Runner();
             //WaitingForTimeToPass.Runner();
             //WaitingForTasks.Runner();
-            ExceptionHandling.Runner();
+            //ExceptionHandling.Runner();
+            //BankAccountRunner.Runner();
+            //BankAccountRunnerInterlocked.Runner();
+            //BankAccountSpinLockRunner.Runner();
+            //LockRecursions.Runner();
+            BankAccountRunnerMutex.Runner();
             Console.ReadKey();
          }
     }

@@ -13,6 +13,7 @@ namespace Threading.ParallelDotNet._02CancellingTask
         {
             var cts = new CancellationTokenSource();
             var token = cts.Token;
+
             token.Register(() =>
             {
                 //.1 Event on cancellation requested.
