@@ -52,6 +52,17 @@
     <Compile Include="08SpinLockingAndLockRecursion\BankAccountSpinLock.cs" />
     <Compile Include="08SpinLockingAndLockRecursion\LockRecursions.cs" />
     <Compile Include="09Mutex\BankAccountMutex.cs" />
+    <Compile Include="09Mutex\GlobalMutexRunner.cs" />
+    <Compile Include="10ReaderWriterLocks\ReaderWriterLocksRunner.cs" />
+    <Compile Include="11ConcurrentDictionary\ConcurrentDictionaryExample.cs" />
+    <Compile Include="12ConcurrentQueue\ConcurrentQueueExample.cs" />
+    <Compile Include="13ConcurrentStack\ConcurrentStackExample.cs" />
+    <Compile Include="14ConcurrentBag\ConcurrentBagExample.cs" />
+    <Compile Include="15ConcurrentBlockingCollectionAndProducerConsumer\ConcurrentBlockingExample.cs" />
+    <Compile Include="16CreatingContinuations\CreatingContinuations.cs" />
+    <Compile Include="17ChildTasks\ChildTasksExample.cs" />
+    <Compile Include="18Barrier\BarrierExample.cs" />
+    <Compile Include="19CountDown\CountDownExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="01TaskProgramming\IntroducingTasks.cs" />
@@ -60,6 +71,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="20ManualResetEventSlimAndAutoResetEvent\" />
+    <Folder Include="21SemaphoreSlim\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

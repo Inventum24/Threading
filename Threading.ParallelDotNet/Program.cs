@@ -12,6 +12,14 @@ using Threading.ParallelDotNet._06CriticalSections;
 using Threading.ParallelDotNet._07InterlockedOperations;
 using Threading.ParallelDotNet._08SpinLockingAndLockRecursion;
 using Threading.ParallelDotNet._09Mutex;
+using Threading.ParallelDotNet._10ReaderWriterLocks;
+using Threading.ParallelDotNet._11ConcurrentDictionary;
+using Threading.ParallelDotNet._13ConcurrentStack;
+using Threading.ParallelDotNet._15ConcurrentBlockingCollectionAndProducerConsumer;
+using Threading.ParallelDotNet._16CreatingContinuations;
+using Threading.ParallelDotNet._17ChildTasks;
+using Threading.ParallelDotNet._18Barrier;
+using Threading.ParallelDotNet._19CountDown;
 
 namespace Threading.ParallelDotNet
 {
@@ -28,8 +36,19 @@ namespace Threading.ParallelDotNet
             //BankAccountRunnerInterlocked.Runner();
             //BankAccountSpinLockRunner.Runner();
             //LockRecursions.Runner();
-            BankAccountRunnerMutex.Runner();
+            //BankAccountRunnerMutex.Runner();
+            //GlobalMutexRunner.GlobalMutex();
+            //ReaderWriterLocksRunner.Runner();
+            //ConcurrentDictionaryExample.Run();
+            //ConcurrentStackExample.Run();
+            //ConcurrentBlockingExample.Run();
+            //CreatingContinuations.Run();
+            //ChildTasksExample.Run();
+            //BarrierExample.Run();
+            CountDownExample.Run();
+
             Console.ReadKey();
+           
          }
     }
 }
