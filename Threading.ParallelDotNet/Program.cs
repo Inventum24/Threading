@@ -20,6 +20,10 @@ using Threading.ParallelDotNet._16CreatingContinuations;
 using Threading.ParallelDotNet._17ChildTasks;
 using Threading.ParallelDotNet._18Barrier;
 using Threading.ParallelDotNet._19CountDown;
+using Threading.ParallelDotNet._20ManualResetEventSlimAndAutoResetEvent;
+using Threading.ParallelDotNet._21SemaphoreSlim;
+using Threading.ParallelDotNet._22Parallel_Invoke_For_ForEach;
+using Threading.ParallelDotNet._23BreakingCancellationsAndExceptions;
 
 namespace Threading.ParallelDotNet
 {
@@ -45,7 +49,11 @@ namespace Threading.ParallelDotNet
             //CreatingContinuations.Run();
             //ChildTasksExample.Run();
             //BarrierExample.Run();
-            CountDownExample.Run();
+            //CountDownExample.Run();
+            //ManualResetExample.Run();
+            //SemaphoreSlimExample.Run();
+            //ParallelExample.Run();
+            ParallelBreakingCancellationsAndExceptions.Run();
 
             Console.ReadKey();
            
