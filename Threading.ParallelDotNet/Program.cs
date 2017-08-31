@@ -24,6 +24,12 @@ using Threading.ParallelDotNet._20ManualResetEventSlimAndAutoResetEvent;
 using Threading.ParallelDotNet._21SemaphoreSlim;
 using Threading.ParallelDotNet._22Parallel_Invoke_For_ForEach;
 using Threading.ParallelDotNet._23BreakingCancellationsAndExceptions;
+using Threading.ParallelDotNet._24ThreadLocalStorage;
+using Threading.ParallelDotNet._25Partitioning;
+using Threading.ParallelDotNet._26AsParallelAndParallelQuery;
+using Threading.ParallelDotNet._27CancellationsAndExceptions;
+using Threading.ParallelDotNet._28MergeOptions;
+using Threading.ParallelDotNet.CustomAggregation;
 
 namespace Threading.ParallelDotNet
 {
@@ -53,7 +59,13 @@ namespace Threading.ParallelDotNet
             //ManualResetExample.Run();
             //SemaphoreSlimExample.Run();
             //ParallelExample.Run();
-            ParallelBreakingCancellationsAndExceptions.Run();
+            //ParallelBreakingCancellationsAndExceptions.Run();
+            //ThreadLocalStorageExample.Run();
+            //PartitioningExample.Run();
+            //AsParallelAndParallelQueryExample.Run();
+            //CancellationsAndExceptionsExample.Run();
+            //MergeExample.Run();
+            CustomAggregationExample.Run();
 
             Console.ReadKey();
            
