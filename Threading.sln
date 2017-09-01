@@ -1,21 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threading.Albahari", "Threading.Albahari\Threading.Albahari.csproj", "{241CDFAC-D408-4E31-994C-2412A8B26AB4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threading.ConsoleApp", "Threading.ConsoleApp\Threading.ConsoleApp.csproj", "{DF144C39-8A9C-40B7-9180-06084294F4D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threading.ProgramowsnieCS5.Chapter01", "Threading.ProgramowsnieCS5.Chapter01\Threading.ProgramowsnieCS5.Chapter01.csproj", "{B071074B-D384-474B-AEC5-2AEF3009BC8C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threading.ProgramowanieCS5.Chapter01", "Threading.ProgramowsnieCS5.Chapter01\Threading.ProgramowanieCS5.Chapter01.csproj", "{B071074B-D384-474B-AEC5-2AEF3009BC8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threading.ProgramowsnieCS5.Chapter02", "Threading.ProgramowsnieCS5.Chapter02\Threading.ProgramowsnieCS5.Chapter02.csproj", "{2C958123-F316-43A0-BB9B-7BA7063A50DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threading.ProgramowanieCS5.Chapter02", "Threading.ProgramowsnieCS5.Chapter02\Threading.ProgramowanieCS5.Chapter02.csproj", "{2C958123-F316-43A0-BB9B-7BA7063A50DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threadings.ProgramowanieCS5.Chapter6", "Threadings.ProgramowanieCS5.Chapter6\Threadings.ProgramowanieCS5.Chapter6.csproj", "{00F22340-0C01-4526-A4A1-D8F4BF9B17FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threading.ProgramowanieCS5.Chapter06", "Threadings.ProgramowanieCS5.Chapter6\Threading.ProgramowanieCS5.Chapter06.csproj", "{00F22340-0C01-4526-A4A1-D8F4BF9B17FF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingConcepts.AsynchronousProgramming", "ProgrammingConcepts.AsynchronousProgramming\ProgrammingConcepts.AsynchronousProgramming.csproj", "{9D02B98D-9A44-4ACD-9117-898652D13CAC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threading.ParallelDotNet", "Threading.ParallelDotNet\Threading.ParallelDotNet.csproj", "{49BB2DB9-046E-4CBD-8435-CB379855D293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threading.RxDotNet", "Threading.RxDotNet\Threading.RxDotNet.csproj", "{87E5A0CF-9AF0-44F6-9D1B-D22081A3B9E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,8 +53,15 @@ Global
 		{49BB2DB9-046E-4CBD-8435-CB379855D293}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49BB2DB9-046E-4CBD-8435-CB379855D293}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49BB2DB9-046E-4CBD-8435-CB379855D293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E5A0CF-9AF0-44F6-9D1B-D22081A3B9E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E5A0CF-9AF0-44F6-9D1B-D22081A3B9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E5A0CF-9AF0-44F6-9D1B-D22081A3B9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E5A0CF-9AF0-44F6-9D1B-D22081A3B9E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCD040FE-A947-498F-AC4C-E32C3239EBBF}
 	EndGlobalSection
 EndGlobal
